@@ -1,5 +1,5 @@
-import homestead from './homestead.json';
-import kovan from './kovan.json';
+
+import moonbase from './moonbase.json';
 
 interface Connector {
     id: string;
@@ -19,8 +19,7 @@ interface Config {
     network: string;
     chainId: number;
     precision: number;
-    infuraKey: string;
-    alchemyKey: string;
+    providerURL: string;
     subgraphUrl: string;
     subgraphBackupUrl: string;
     addresses: {
@@ -37,14 +36,10 @@ interface Config {
 }
 
 const configs = {
-    1: {
+    1287:{
         untrusted: [],
-        ...homestead,
-    },
-    42:{
-        untrusted: [],
-        ...kovan,
-    },
+        ...moonbase,
+    }
 };
 // eslint-disable-next-line no-undef
 const network = process.env.APP_CHAIN_ID || 1;

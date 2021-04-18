@@ -306,6 +306,8 @@ export default defineComponent({
             const assetOutAddress = assetOutAddressInput.value === ETH_KEY
                 ? config.addresses.weth
                 : assetOutAddressInput.value;
+            console.log(assetInAddress);
+            console.log(assetOutAddress);
             console.time(`[SOR] setCostOutputToken: ${assetOutAddress}`);
             await sor.setCostOutputToken(assetOutAddress);
             console.timeEnd(`[SOR] setCostOutputToken: ${assetOutAddress}`);
