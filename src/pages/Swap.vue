@@ -474,6 +474,7 @@ export default defineComponent({
 
         function getInitialPair(): Pair {
             const pair = Storage.getPair(config.chainId);
+            console.log(`[PAIR] ${pair}`)
             let assetIn =
                 router.currentRoute.value.params.assetIn as string ||
                 pair.inputAsset;
