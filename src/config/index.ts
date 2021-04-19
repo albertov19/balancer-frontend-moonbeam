@@ -42,7 +42,7 @@ const configs = {
     }
 };
 // eslint-disable-next-line no-undef
-const network = process.env.APP_CHAIN_ID || 1;
+const network = process.env.APP_CHAIN_ID || 1287;
 
 const config: Config = configs[network];
 

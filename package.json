@@ -16,8 +16,8 @@
     "stylelint": "stylelint \"src/**/*.vue\""
   },
   "dependencies": {
-    "@balancer-labs/assets": "github:albertov19/balancer-assets-moonbeam#master",
-    "@balancer-labs/sor": "github:albertov19/balancer-sor-moonbeam#master",
+    "balancer-assets-moonbeam": "github:albertov19/balancer-assets-moonbeam#master",
+    "balancer-sor-moonbeam": "^1.0.0",
     "@ethersproject/address": "^5.0.6",
     "@ethersproject/constants": "^5.0.6",
     "@ethersproject/contracts": "^5.0.6",
@@ -31,7 +31,7 @@
     "@walletconnect/web3-provider": "^1.2.2",
     "bignumber.js": "^9.0.1",
     "dotenv-webpack": "^2.0.0",
-    "ethcall": "github:albertov19/ethcall-moonbeam#master",
+    "ethcall-moonbeam": "^1.0.0",
     "fortmatic": "^2.0.6",
     "vue": "^3.0.2",
     "vue-router": "^4.0.0-rc.6",
