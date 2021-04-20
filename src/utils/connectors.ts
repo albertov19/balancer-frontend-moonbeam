@@ -27,7 +27,6 @@ export function hasInjectedProvider(): boolean {
 export function getConnectorName(connectorId: string): string {
     if (connectorId === 'injected') {
         const provider = window.ethereum;
-        console.log(provider);
         if (provider.isMetaMask) {
             return 'MetaMask';
         }

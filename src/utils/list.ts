@@ -2,7 +2,7 @@ import tokenlist from 'balancer-assets-moonbeam/generated/listed.tokenlist.json'
 
 import config, { AssetMetadata } from '@/config';
 
-const ETH_LOGO = 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png';
+const ETH_LOGO = 'https://raw.githubusercontent.com/PureStake/moonbase-mintableERC20/main/mintableERC20-interface/public/logos/Black_Icon.svg';
 
 export interface TokenList {
     name: string;
@@ -45,8 +45,8 @@ export function getAssetsFromTokenlist(chainId: number, list: TokenList): Record
     if (list.tokens.findIndex(token => token.address === config.addresses.weth) !== -1) {
         assets.ether = {
             address: 'ether',
-            name: 'Ether',
-            symbol: 'ETH',
+            name: 'DEV',
+            symbol: 'DEV',
             decimals: 18,
             logoURI: ETH_LOGO,
         };

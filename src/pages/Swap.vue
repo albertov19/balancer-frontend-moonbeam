@@ -306,8 +306,6 @@ export default defineComponent({
             const assetOutAddress = assetOutAddressInput.value === ETH_KEY
                 ? config.addresses.weth
                 : assetOutAddressInput.value;
-            console.log(assetInAddress);
-            console.log(assetOutAddress);
             console.time(`[SOR] setCostOutputToken: ${assetOutAddress}`);
             await sor.setCostOutputToken(assetOutAddress);
             console.timeEnd(`[SOR] setCostOutputToken: ${assetOutAddress}`);
@@ -474,7 +472,6 @@ export default defineComponent({
 
         function getInitialPair(): Pair {
             const pair = Storage.getPair(config.chainId);
-            console.log(`[PAIR] ${pair}`)
             let assetIn =
                 router.currentRoute.value.params.assetIn as string ||
                 pair.inputAsset;
