@@ -29,7 +29,7 @@
                 </div>
                 <a
                     class="link"
-                    href="https://moonbase-balexchange.netlify.app/"
+                    href="https://moonbase-balpoolm.netlify.app"
                     target="_blank"
                 >
                     Invest

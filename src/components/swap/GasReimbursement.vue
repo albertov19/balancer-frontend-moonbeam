@@ -24,13 +24,13 @@
 
 import { PropType, defineComponent, computed } from 'vue';
 import { useStore } from 'vuex';
-import { Swap, Pool } from '@balancer-labs/sor/dist/types';
+import { Swap, Pool } from 'balancer-sor-moonbeam/dist/types';
 import { RootState } from '@/store';
 import { ETH_KEY } from '@/utils/helpers';
 import config from '@/config';
 import BigNumber from 'bignumber.js';
 
-import eligibleAssetList from '@balancer-labs/assets/lists/eligible.json';
+import eligibleAssetList from 'balancer-assets-moonbeam/lists/eligible.json';
 
 export default defineComponent({
     props: {

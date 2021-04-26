@@ -5,7 +5,7 @@
 Create `.env` file to change environment variables. Default values are:
 
 ```
-APP_CHAIN_ID=1
+APP_CHAIN_ID=1287
 APP_GAS_PRICE=100000000000
 ```
 
