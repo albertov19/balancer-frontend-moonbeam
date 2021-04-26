@@ -77,9 +77,10 @@ export function getPoolLink(pool: string): string {
     const prefixMap = {
         1: '',
         42: 'kovan.',
+        1287: '',
     };
     const prefix = prefixMap[chainId];
-    const link = `https://${prefix}pools.balancer.exchange/#/pool/${pool}`;
+    const link = `https://${prefix}moonbase-balpoolm.netlify.app/#/pool/${pool}`;
     return link;
 }
 
