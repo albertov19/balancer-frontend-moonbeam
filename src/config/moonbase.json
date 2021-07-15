@@ -6,14 +6,14 @@
   "subgraphUrl": "https://api.staging.thegraph.com/subgraphs/name/mario-purestake/balancer-moonbase",
   "subgraphBackupUrl": "https://api.staging.thegraph.com/subgraphs/name/mario-purestake/balancer-moonbase",
   "addresses": {
-      "bFactory": "0x0bb1ac004BacefFb1fb1a4aA3f74835372A5deD0",
-      "bActions": "0x3D036b042642f5bA9164b99a375E4BC32Da844eA",
-      "dsProxyRegistry": "0x8f255087c773d3D0c4b1bB65d5619945d16fcd41",
-      "exchangeProxy": "0xC2551FC873a564e040e46D512f952686064c2aFe",
-      "weth": "0x20e2128fCe689c76B908bF515C00FcbD9A62C4BE",
-      "multicall": "0x480b974312dCbbA4B3Bb7c11277D4383fCd9723f"
+    "bFactory": "0x75a54313960195B87cb81cd6e84a299116C0207F",
+    "bActions": "0x90f54B07024346072ee632Fba28A320073bb36cE",
+    "dsProxyRegistry": "0x6BFdC54E6e4Fc95A850c7EF75Dc5e3174FdAb7a4",
+    "exchangeProxy": "0xc844148afff17AE0B5BD0065964a7f41E88F16B6",
+    "weth": "0x16913C2bAa78F167879A6ecA25B75b9bEf7ae0dD",
+    "multicall": "0x010B36Bf57D1f18Baa4020CD46B732d2D3d94f26"
   },
   "connectors": {
-      "injected": {}
+    "injected": {}
   }
 }
